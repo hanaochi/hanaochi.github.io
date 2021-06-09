@@ -1,0 +1,93 @@
+h1{
+	color : #f3bda1;
+	front-size : 32px;
+	front-family: arial;
+	text-align: center;
+	font-family: 'Karantina', cursive;
+}
+.frame {
+	border : 5px solid black;
+	margin : 10px;
+	padding: 50px;
+}
+h2{
+	color: #FFEDDE;
+}
+h3, ul, ol {
+	color: #FFEDDE;
+}
+span{
+	color: black;
+}
+h3, h2 {
+	font-family: 'Antonio', sans-serif;
+}
+h2, h4, p {
+	front-size: 28px;
+	front-family: arial;
+	text-align: center;
+}
+h3, ul, ol {
+	front-size : 20px;
+	text-align: left;
+}
+body {
+	background-color: #ffedde;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23ebebeb' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+	front-family: arial;
+	text-align: center;
+}
+img {
+	width: 300px;
+	height
+}
+a {color: #8E9775;
+}
+
+a:hover {
+	color: #687980;
+}
+a, a:hover {
+	text-decoration: none;
+}
+div {background: #8E9775;}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: transparent;
+}
+
+.links{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.link{
+	margin: 10px 30px;
+	color: #f3bda1;
+	font-family: courrier
+}
+
+.link.hover{
+	color: #687980;
+	font-family: courrier
+}
+
+#boxes {float: left; clear; all
+} 
+.intagram.png {display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.twitter.png {display: flex;
+align-items: left;
+text-align: center
+}
+
+.facebook.png {display: flex; 
+align-items:
+left;
+}
+
