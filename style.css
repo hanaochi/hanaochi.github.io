@@ -10,6 +10,17 @@ h1{
 	margin : 10px;
 	padding: 50px;
 }
+
+.p{
+		margin-bottom: 30px;
+	text-align: left;
+
+}
+
+.carte{
+			margin-bottom: 30px;
+}
+
 h2{
 	color: #FFEDDE;
 }
@@ -22,7 +33,7 @@ span{
 h3, h2 {
 	font-family: 'Antonio', sans-serif;
 }
-h2, h4, p {
+h2, h4, {
 	front-size: 28px;
 	front-family: arial;
 	text-align: center;
@@ -39,20 +50,33 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 img {
 	width: 300px;
-	height
+	height : 400px;
+		margin-bottom: 10px;
 }
-a {color: #8E9775;
+.mybtn {color: #8E9775;
+			margin-bottom: 30px;
+
 }
 
-a:hover {
+.mybtn:hover {
 	color: #687980;
 }
-a, a:hover {
+.mybtn, .mybtn:hover {
 	text-decoration: none;
 }
-div {background: #8E9775;}
 
-.navbar{
+.mybtn{
+	font-family: 'Karantina', cursive;
+}
+
+.frame {
+	margin-bottom: 50px;
+background: #8E9775;
+border-radius: 5px;
+box-shadow: 10px 10px 10px lightgrey;
+}
+
+.my-navbar{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -66,12 +90,12 @@ div {background: #8E9775;}
 
 .link{
 	margin: 10px 30px;
-	color: #f3bda1;
+	color: #8E9775;
 	font-family: courrier
 }
 
-.link.hover{
-	color: #687980;
+.link:hover{
+	color: ##687980;
 	font-family: courrier
 }
 
@@ -91,3 +115,80 @@ align-items:
 left;
 }
 
+.coco {
+
+width: 25px;
+height: 25px
+
+}
+
+.logo{
+	width : 100px;
+	height: 100px;
+}
+
+.esp, .youtube{
+			margin-bottom: 30px;
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 10px;
+  width: 20%;
+  background: #8E9775;
+}
+
+.line-medium {
+  height: 10px;
+  width: 30%;
+  background: #8E9775;
+}
+
+.line-hard {
+  height: 10px;
+  width: 50%;
+  background: #8E9775;
+}
+
+.carte{
+		margin-bottom: 30px;
+}
+
+.im{
+	width: 800px;
+	height: 500px;
+}
+
+h4{
+	color : #8E9775;
+	front-size : 32px;
+	front-family: arial;
+	text-align: center;
+	font-family: 'Antonio', sans-serif;
+}
+
+.esp1{
+	margin-bottom: 70px;
+		text-align: left;
+}
+
+.esp2{
+		margin-bottom: 100px;
+}
+
+#col {
+  column-count: 3;
+}
+
+.im2{
+	margin-bottom: 50px;
+	width: 1500px;
+	height: 700px;
+}
